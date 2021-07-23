@@ -54,15 +54,16 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    proxy: true
-  },
-  proxy: {
-    '/api/': 'https://meetyourfinance.test',
-  },
+  // axios: {
+  //   proxy: true
+  // },
+  // proxy: {
+  //   '/api/': 'https://meetyourfinance.test',
+  // },
   publicRuntimeConfig: {
     axios: {
-      baseURL: 'https://meetyourfinance.test/api/'
+      // baseURL: 'https://meetyourfinance.test/api/'
+      baseURL: 'https://meetyourfinance.com/api/'
     }
   },
 
